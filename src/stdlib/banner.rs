@@ -7,6 +7,6 @@ pub fn banner(s: &String) -> String {
 }
 
 pub fn bund_banner() -> String {
-    let ban = format!("ZBUSDG {}", env!("CARGO_PKG_VERSION"));
+    let ban = format!("ZBUSHTTP {}", env!("CARGO_PKG_VERSION"));
     banner(&ban)
 }
